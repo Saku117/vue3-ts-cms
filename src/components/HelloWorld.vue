@@ -6,7 +6,7 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli documentation</a
-      >.
+      >
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
@@ -87,22 +87,28 @@
           href="https://github.com/vuejs/awesome-vue"
           target="_blank"
           rel="noopener"
-          >awesome-vue</a
-        >
+          >awesome-vue
+        </a>
       </li>
     </ul>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from "vue"
 
 export default defineComponent({
   name: "HelloWorld",
   props: {
-    msg: String,
-  },
-});
+
+
+
+
+
+    
+    msg: String
+  }
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
