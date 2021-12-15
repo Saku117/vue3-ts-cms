@@ -1,0 +1,10 @@
+import type { App } from "vue"
+import registerProperties from "./register-properties"
+
+export function globalRegister(app: App): void {
+  app.use(registerProperties)
+}
+
+// export function regiterApp(app: App): void {
+//   app.component(``)
+// }
